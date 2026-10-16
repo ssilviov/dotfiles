@@ -1,0 +1,9 @@
+# Change prefix from 'Ctrl+B' to 'Ctrl+A'
+unbind C-b
+set-option -g prefix C-a
+bind-key C-a send-prefix
+
+# Enable mouse mode
+set -g mouse on
+
+
