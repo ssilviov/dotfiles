@@ -1,5 +1,5 @@
 #!/bin/bash -ex
 
-ln -s tmux ~/.tmux.conf
-ln -s zshrc ~/.zshrc
-ln -s emacs ~/.emacs
+ln -s ${PWD}/tmux ~/.tmux.conf
+ln -s ${PWD}/zshrc ~/.zshrc
+ln -s ${PWD}/emacs ~/.emacs

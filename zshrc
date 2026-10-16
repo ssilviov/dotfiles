@@ -39,5 +39,5 @@ export PATH="$HOME/.npm-global/bin:$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 if [[ -a ~/.secrets ]]; then
-source .secrets
+source ~/.secrets
 fi
